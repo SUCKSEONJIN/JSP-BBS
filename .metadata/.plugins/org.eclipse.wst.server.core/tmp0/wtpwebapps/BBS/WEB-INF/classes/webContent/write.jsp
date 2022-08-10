@@ -8,6 +8,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <title>JSP 웹 게시판</title>
+<style type="text/css">
+	a ,a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+</style>
 </head>
 <body>
 
