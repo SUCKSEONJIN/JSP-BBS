@@ -7,6 +7,8 @@
 <meta http-equiv="content-Type" content="text/html;charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/custom.css">
+
 <title>JSP 웹 게시판</title>
 </head>
 <body>
@@ -66,8 +68,40 @@
 		      	%>			
 		</div>					
 	</nav>
-
-
+	<div class= "container mt-3">
+		<div class="jumbotron">
+			<h1>웹 사이트 소개</h1>
+			<p>이 웹 사이트는 부트스트랩으로 만든 jsp 웺 사이트 입니다. 최소한의 간단한 로직을 이용해서 개발했습니다.</p>
+			<h2><a class="btn btn-primary" href="#" role="button">자세히 알아보기</a></h2>
+		</div>
+	</div>
+	<div class="container">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>				
+		
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="images/cat1.jpg">				
+			</div> 
+			<div class="carousel-item">
+				<img src="images/Persian.jpg">				
+			</div>
+			<div class="carousel-item">
+				<img src="images/Siamese cat.jpg">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+		<span class="carousel-control-next-icon"></span>
+		</a>
+		</div>
+	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
